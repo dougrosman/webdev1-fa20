@@ -1,0 +1,120 @@
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    background: linear-gradient(#ff9999, #aaffff);
+    width: 100vw;
+    height: 100vh;
+}
+
+.phone {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50vmin;
+    height: 80vmin;
+    padding: 1vmin;
+    border-radius: 4vmin;
+    box-shadow: 0px 1vmin 3vmin -2vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background: white;
+}
+
+.row {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    width: 7vmin;
+    height: 7vmin;
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box:hover {
+    transform: scale(1.2);
+}
+
+.gif00 {
+    background-image: url("gifs/circles00.gif")
+}
+.gif01 {
+    background-image: url("gifs/circles01.gif")
+}
+.gif02 {
+    background-image: url("gifs/circles02.gif")
+}
+.gif03 {
+    background-image: url("gifs/circles03.gif")
+}
+.gif04 {
+    background-image: url("gifs/circles04.gif")
+}
+.gif05 {
+    background-image: url("gifs/circles05.gif")
+}
+.gif06 {
+    background-image: url("gifs/circles06.gif")
+}
+.gif07 {
+    background-image: url("gifs/circles07.gif")
+}
+.gif08 {
+    background-image: url("gifs/circles08.gif")
+}
+.gif09 {
+    background-image: url("gifs/circles09.gif")
+}
+.gif10 {
+    background-image: url("gifs/circles10.gif")
+}
+.gif11 {
+    background-image: url("gifs/circles11.gif")
+}
+.gif12 {
+    background-image: url("gifs/circles12.gif")
+}
+.gif13 {
+    background-image: url("gifs/circles13.gif")
+}
+.gif14 {
+    background-image: url("gifs/circles14.gif")
+}
+.gif15 {
+    background-image: url("gifs/circles15.gif")
+}
+.gif16 {
+    background-image: url("gifs/circles16.gif")
+}
+.gif17 {
+    background-image: url("gifs/circles17.gif")
+}
+.gif18 {
+    background-image: url("gifs/circles18.gif")
+}
+.gif19 {
+    background-image: url("gifs/circles19.gif")
+}
+.gif20 {
+    background-image: url("gifs/circles20.gif")
+}
+.gif21 {
+    background-image: url("gifs/circles21.gif")
+}
+.gif22 {
+    background-image: url("gifs/circles22.gif")
+}
+.gif23 {
+    background-image: url("gifs/circles23.gif")
+}
+
