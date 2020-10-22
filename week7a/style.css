@@ -1,0 +1,28 @@
+html {
+  font-size: 24px;
+  font-family: 'Grandstander', cursive;
+  font-weight: 500;
+  
+}
+
+h1 {
+  font-weight: 100;
+}
+
+div {
+  margin: 20px;
+  
+}
+
+.vmin {
+  background: lightblue;
+  width: 20vmin;
+  height: 20vmin;
+}
+
+.vmax {
+  background: lightpink;
+  width: 20vmax;
+  height: 20vmax;
+  display: block;
+}

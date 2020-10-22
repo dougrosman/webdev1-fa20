@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rock Salt', cursive;
+}
+
+.wrapper {
+  max-width: 900px;
+  min-height: 100vh;
+  margin: 0 auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+header {
+  background: green;
+}
+
+main {
+  /* background: orange; */
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery__item {
+  background-image: url("images/bird.jpg");
+  background-position-x: right;
+  background-size: cover;
+  width: 30vmin;
+  height: 30vmin;
+  margin: 10px;
+  box-shadow: 0px 10px 20px -10px black;
+  position: relative;
+}
+
+.gallery__text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;  
+  top: 80%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0);
+  color: rgba(255, 255, 255, 0);
+  text-decoration: none;
+  font-size: 3vmin;
+  transition: all .5s;
+}
+
+.gallery__item:hover .gallery__text {
+  background: rgba(0,0,0,0.5);
+  color: rgba(255, 255, 255, 1);
+}
+
+.img1 { background-image: url("images/bird.jpg"); }
+.img2 { background-image: url("images/capuchin.jpg"); }
+.img3 { background-image: url("images/dolphin.jpg"); }
+.img4 { background-image: url("images/fish.jpg"); }
+.img5 { background-image: url("images/hamster.jpg"); }
+.img6 { background-image: url("images/cat.jpg"); }
+
+

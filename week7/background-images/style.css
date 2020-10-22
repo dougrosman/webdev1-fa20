@@ -1,0 +1,6 @@
+.kitty {
+  width: 800px;
+  height: 1000px;
+  background-image: url("images/kitty.jpg");
+  background-size: cover;
+}
