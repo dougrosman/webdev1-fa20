@@ -1,0 +1,20 @@
+
+
+header {
+  background: lightblue;
+  padding: 50px;
+  text-align: center;
+  font-size: 60px;
+  font-family: Arial;
+}
+
+img {
+  width: 400px;
+  transition: width 1s;
+}
+
+img:hover {
+  width: 100vw;
+}
+
+

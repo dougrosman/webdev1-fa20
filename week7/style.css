@@ -1,0 +1,10 @@
+.variable-font {
+  font-family: 'Grandstander', cursive;
+
+  font-weight: 550;
+  font-size: 30px;
+}
+
+.my-iframe {
+  border: 2px solid black;
+}
